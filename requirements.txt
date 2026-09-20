@@ -1,0 +1,13 @@
+# --- core mission stack ---
+pymavlink>=2.4.42
+numpy>=1.26
+opencv-python-headless>=4.9
+requests>=2.31
+
+# --- fly vision frontend (MIT) ---
+# torch is pulled in by flyvis; pinned loosely so pip resolves a CPU wheel
+torch>=2.2
+flyvis>=1.1
+
+# --- connectome reference data (read-only, no GPL code linked) ---
+pyarrow>=15.0

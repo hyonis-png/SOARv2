@@ -1,0 +1,6 @@
+.env
+.venv/
+data/clips/
+data/connectome/
+__pycache__/
+*.pyc
